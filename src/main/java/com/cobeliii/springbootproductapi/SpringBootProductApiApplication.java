@@ -28,6 +28,7 @@ public class SpringBootProductApiApplication {
             product.setStockLevel(100);
             product.setImageUrl("https://example.com/product1.jpg");
             productRepository.save(product);
+
         };
     }
 
